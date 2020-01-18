@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -16,37 +16,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="KCt-3B-w0y">
-                                <rect key="frame" x="0.0" y="20" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="856"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Je7-Id-NXf">
-                                <rect key="frame" x="119" y="54" width="176" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Je7-Id-NXf">
+                                <rect key="frame" x="147.66666666666666" y="64" width="118.99999999999997" height="20"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIc-jc-KeI">
-                                <rect key="frame" x="71" y="157" width="273" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIc-jc-KeI">
+                                <rect key="frame" x="77.333333333333343" y="157" width="259.33333333333326" height="71.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="52"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TB8-e5-ix9">
-                                <rect key="frame" x="71" y="226" width="273" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TB8-e5-ix9">
+                                <rect key="frame" x="73.666666666666657" y="226.33333333333334" width="266.66666666666674" height="37.000000000000028"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="27"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="find a team in your city &amp; dominate the league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3G-zD-oAC">
-                                <rect key="frame" x="71" y="287" width="273" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="find a team in your city &amp; dominate the league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3G-zD-oAC">
+                                <rect key="frame" x="39" y="271.33333333333331" width="336.33333333333331" height="22"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gus-OX-k3W" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
-                                <rect key="frame" x="20" y="778" width="374" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gus-OX-k3W" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="782" width="414" height="60"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.39932041952054792" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ibf-3E-ate"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                 <state key="normal" title="GET STARTED">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -55,13 +53,28 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="KCt-3B-w0y" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ImP-gt-tSm"/>
-                            <constraint firstItem="KCt-3B-w0y" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="S73-kg-Vk8"/>
-                            <constraint firstItem="KCt-3B-w0y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Yef-bA-4ZO"/>
-                            <constraint firstItem="KCt-3B-w0y" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" symbolic="YES" id="r9k-JE-aor"/>
+                            <constraint firstItem="DIc-jc-KeI" firstAttribute="top" secondItem="Je7-Id-NXf" secondAttribute="bottom" constant="73" id="3DU-ZB-npe"/>
+                            <constraint firstItem="d3G-zD-oAC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Jx-wN-d12"/>
+                            <constraint firstItem="TB8-e5-ix9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bp7-HD-rVC"/>
+                            <constraint firstItem="Gus-OX-k3W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CN4-CU-9yg"/>
+                            <constraint firstItem="Je7-Id-NXf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CYO-kf-E3g"/>
+                            <constraint firstAttribute="bottom" secondItem="KCt-3B-w0y" secondAttribute="bottom" constant="20" symbolic="YES" id="Ecd-LI-OXb"/>
+                            <constraint firstItem="TB8-e5-ix9" firstAttribute="top" secondItem="DIc-jc-KeI" secondAttribute="bottom" constant="-2.5" id="LQY-Ue-Ujc"/>
+                            <constraint firstItem="DIc-jc-KeI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Oxr-Ej-JiO"/>
+                            <constraint firstItem="KCt-3B-w0y" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" symbolic="YES" id="Vyh-o0-fx0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gus-OX-k3W" secondAttribute="trailing" id="cru-fh-vJl"/>
+                            <constraint firstItem="Je7-Id-NXf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="d95-LT-iCB"/>
+                            <constraint firstItem="KCt-3B-w0y" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dca-og-1uc"/>
+                            <constraint firstItem="KCt-3B-w0y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fjA-W8-qoz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gus-OX-k3W" secondAttribute="bottom" constant="20" id="uqv-j6-lNU"/>
+                            <constraint firstItem="d3G-zD-oAC" firstAttribute="top" secondItem="TB8-e5-ix9" secondAttribute="bottom" constant="8" id="usu-qr-0oh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="KCt-3B-w0y" id="0P5-zN-mm1"/>
+                        <outlet property="swoosh" destination="Je7-Id-NXf" id="D6x-lU-eWH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
